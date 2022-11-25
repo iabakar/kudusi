@@ -48,6 +48,16 @@ https://templatemo.com/tm-581-kind-heart-charity
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
+  /* --white-color:                  #ffffff;
+  --primary-color:                #291210c6;
+  --secondary-color:              #5a6f80;
+  --section-bg-color:             #f0f8ff;
+  --site-footer-bg-color:         #44525d;
+  --custom-btn-bg-color:          #597081;
+  --custom-btn-bg-hover-color:    #5bc1ac;
+  --dark-color:                   #000000;
+  --p-color:                      #717275;
+  --border-color:                 #e9eaeb; */
   --white-color:                  #ffffff;
   --primary-color:                #5bc1ac;
   --secondary-color:              #5a6f80;
@@ -58,7 +68,6 @@ https://templatemo.com/tm-581-kind-heart-charity
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #e9eaeb;
-
   --body-font-family:             'Metropolis', sans-serif;
 
   --h1-font-size:                 52px;
@@ -574,6 +583,12 @@ strong {
   min-height: 680px;
 }
 
+
+
+
+/*------------- Start ----------------*/
+
+/* 
 #hero-slide .carousel-caption {
   background: var(--white-color);
   clip-path: polygon(100% 100%, 100% 150px, 0 100%);
@@ -585,8 +600,28 @@ strong {
   text-align: right;
   min-width: 680px;
   min-height: 680px;
-  padding: 100px 100px 50px 100px;
+  padding: 100px -5px 50px 100px;
+
+} */
+
+#hero-slide .carousel-caption {
+  background: var(--white-color);
+  clip-path: polygon(100% 100%, 100% 135px, 0 100%);
+  color: var(--secondary-color);
+  top: 245px;
+  bottom: -169px;
+  right: 0;
+  left: auto;
+  text-align: right;
+  min-width: 580px;
+  min-height: 531px;
+  padding: 99px 15px 50px 118px;
 }
+
+
+
+
+
 
 .carousel-image {
   display: block;
@@ -761,7 +796,7 @@ strong {
   DONATE              
 -----------------------------------------*/
 .donate-section {
-  background-image: url('../images/donate.JPEG');
+  background-image: url('../images/different-people-doing-volunteer-work.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -783,7 +818,7 @@ strong {
   NEWS         
 -----------------------------------------*/
 .news-detail-header-section {
-  background-image: url('../images/donate.JPEG');
+  background-image: url('../images/news/close-up-volunteer-oganizing-stuff-donation.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
